@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tiket Kereta Api</title>
+</head>
+
+<body>
+    <p>Detail Pesanan</p>
+    <script>
+        let pesananTiket = {
+            namaPenumpang: "Budi tabudi",
+            noKursi: 5,
+            tujuan: "Bandung",
+            namaKA : "Tasaka",
+            waktuBerangkat: "10:00",
+            waktuTiba: "16:00",
+            tanggalBerangkat: "2022-09-06",
+            jumPenumpang: 2,
+            totalBiaya: 1000000
+        };
+        function viewDetailPesanan(pesanan) {
+            console.log("Detail Pesanan Tiket");
+            console.log("Nama Penumpang:", pesanan.namaPenumpang);
+            console.log("Nomor Kursi:", pesanan.noKursi);
+            console.log("Tujuan:", pesanan.tujuan);
+            console.log("Nama Kereta Api:", pesanan.namaKA);
+            console.log("Waktu Keberangkatan:", pesanan.waktuBerangkat);
+            console.log("Waktu Tiba:", pesanan.waktuTiba);
+            console.log("Tanggal Keberangkatan:", pesanan.tanggalBerangkat);
+            console.log("Jumlah Penumpang:", pesanan.jumPenumpang);
+            console.log("Total Biaya:", pesanan.totalBiaya);
+        }
+
+        // Contoh penggunaan
+        viewDetailPesanan(pesananTiket);
+
+    </script>
+</body>
+
+</html>

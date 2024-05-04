@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tiket Kereta Api</title>
+</head>
+
+<body>
+    <p>Konversi Waktu AM and PM</p>
+    <script>
+        function Waktu(time) {
+           
+            let jam = parseInt(time.substring(0, 2), 10);
+            let menit = time.substring(3, 5); //mengambil karakter dari indeks ke-3 hingga indeks ke-4 dari string
+
+            let amPm = (jam < 12) ? "AM" : "PM";
+          
+            if (jam === 0) {
+                jam = 12;
+            } else if (jam > 12) {
+                jam = jam - 12;
+            }
+            let konversi = jam + ":" + menit + " " + amPm;
+
+            return konversi;
+        }
+
+        let time = prompt('Silahkan input konversi waktu 24 jam')
+        let konversi = Waktu(time);
+        console.log("Waktu dalam format AM or PM = ", konversi);
+
+
+
+    </script>
+</body>
+
+</html>
