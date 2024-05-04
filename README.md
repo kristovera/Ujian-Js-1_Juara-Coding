@@ -1,6 +1,6 @@
 Soal JavaScript untuk studi kasus Aplikasi Pemesanan Tiket Kereta Api:
 1. Soal: Validasi Input Nama Penumpang
-   Studi Kasus: Ketika pengguna memesan tiket, nama penumpang harus diisi. Buatlahsebuah fungsi JavaScript untuk memvalidasi apakah input nama penumpang telahdiisi
+   Studi Kasus: Ketika pengguna memesan tiket, nama penumpang harus diisi. Buatlahsebuah fungsi JavaScript untuk memvalidasi apakah input nama penumpang telah diisi
    atau tidak.
 2. Soal: Menghitung Total Harga Tiket
    Studi Kasus: Setiap tiket memiliki harga tertentu. Buatlah sebuah fungsi JavaScript
